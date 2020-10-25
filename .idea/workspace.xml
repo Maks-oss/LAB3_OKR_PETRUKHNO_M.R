@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9b3f59-98fa-4ad4-b595-dac270616dc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+    <list default="true" id="3a9b3f59-98fa-4ad4-b595-dac270616dc6" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,12 +56,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603133163093</updated>
-      <workItem from="1603133164944" duration="55755000" />
+      <workItem from="1603133164944" duration="56198000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1603649519356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603649519356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603467385384">
@@ -198,6 +208,10 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="241" y="64" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1603645006413" />
+    <state x="340" y="165" key="Vcs.Push.Dialog.v2" timestamp="1603649527093">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="340" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1603649527093" />
     <state x="405" y="170" width="670" height="678" key="search.everywhere.popup" timestamp="1603564564576">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
