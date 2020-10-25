@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="index.css" rel="stylesheet">
+    <title>Volkswagen</title>
+</head>
+<body>
+<header>
+<input type="checkbox" id="hmt" class="hidden-menu-ticker" onclick="myFunction()">
+<label class="btn-menu" for="hmt">
+    <span class="first"></span>
+    <span class="second"></span>
+    <span class="third"></span>
+</label>
+<ul class="hidden-menu">
+    <li><h4>Закрити меню</h4></li>
+    <li>
+        <button id="search" onclick="focusInput()"> <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/search-512.png"  alt="search" style="height: 20px;width: 20px"/></button>
+        <label>
+        <input id="search_input" onfocusout="focusOut()" type="text" name="search" placeholder="Search.." style="visibility: hidden">
+            <script>
+                function focusInput () {
+                    document.getElementById('search_input').style.visibility="visible"
+                    document.getElementById('search_input').focus()
+                }
+                function focusOut() {
+                    document.getElementById('search_input').style.visibility="hidden"
+                }
+            </script>
+    </label>
+    </li>
+
+    <li><ul class="menu_options">
+        <li><a href="#"><h1>Головна</h1></a> </li>
+        <li><a href="#"><h1>Моделі та конфігуратор</h1></a></li>
+        <li><a href="#"><h1>Комерційні автомобілі</h1></a></li>
+        <li><a href="#"><h1>Спеціальні пропозиції</h1></a></li>
+        <li><a href="#"><h1>Фінансування</h1></a></li>
+        <li><a href="#"><h1>Сервіс та аксесуари</h1></a></li>
+        <li><a href="#"><h1>Новини</h1></a></li>
+        <li><a href="#"><h1>Щодо відповідності радіообладнання</h1></a></li>
+        <li><a href="#"><h1>Щодо Golf Sportwagen</h1></a></li>
+    </ul>
+    </li>
+    <li> <nav style="color: white">
+        <a href="#">Про компанію</a> | <a href="#">Конфідеційність персональних даних</a> |
+        <a href="#">Умови використання</a> | <a href="#">Зворотний зв'язок</a>| <a href="#">Споживання пального</a>
+    </nav>
+    </li>
+</ul>
+
+</header>
+
+        <div class="forLogo" id="logo">
+            <div class="beforeLogo"></div>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" >
+                    <path fill="#001E50" d="M28,52.7 C14.5,52.7 3.4,41.5 3.4,28 C3.4,25.2 3.9,22.5 4.8,19.9 L19.2,47.9 C19.4,48.3 19.6,48.6 20.1,48.6 C20.6,48.6 20.8,48.3 21,47.9 L27.7,33 C27.8,32.8 27.9,32.7 28,32.7 C28.2,32.7 28.2,32.9 28.3,33 L35.1,47.9 C35.3,48.3 35.5,48.6 36,48.6 C36.5,48.6 36.7,48.3 36.9,47.9 L51.3,19.9 C52.2,22.4 52.7,25.1 52.7,28 C52.6,41.5 41.5,52.7 28,52.7 Z M28,21.6 C27.8,21.6 27.8,21.4 27.7,21.3 L20,4.7 C22.5,3.8 25.2,3.3 28,3.3 C30.8,3.3 33.5,3.8 36,4.7 L28.3,21.3 C28.2,21.4 28.2,21.6 28,21.6 Z M19.9,39.6 C19.7,39.6 19.7,39.4 19.6,39.3 L7,15.1 C9.2,11.5 12.4,8.5 16.1,6.4 L25,25.6 C25.2,26 25.4,26.1 25.7,26.1 L30.3,26.1 C30.6,26.1 30.8,26 31,25.6 L39.8,6.4 C43.5,8.5 46.7,11.5 48.9,15.1 L36.4,39.3 C36.3,39.5 36.2,39.6 36.1,39.6 C35.9,39.6 35.9,39.4 35.8,39.3 L31,28.7 C30.8,28.3 30.6,28.2 30.3,28.2 L25.7,28.2 C25.4,28.2 25.2,28.3 25,28.7 L20.2,39.3 C20.1,39.4 20.1,39.6 19.9,39.6 Z M28,56 C43.5,56 56,43.5 56,28 C56,12.5 43.5,0 28,0 C12.5,0 0,12.5 0,28 C0,43.5 12.5,56 28,56 Z"/>
+                </svg>
+            </div>
+            <div class="afterLogo"></div>
+        </div>
+
+<div class="parallax"></div>
+
+
+
+
+
+
+<div class="grid">
+    <div class="grid_element">Ціна від (з ПДВ)
+       <h2> 902 326,-</h2></div>
+    <div class="grid_element">Потужність<h2>
+        110 - 162
+        кВт</h2></div>
+    <div class="grid_element">Потужність<h2>
+        150 - 220
+        к.с.
+    </h2></div>
+    <div class="grid_element">Споживання<h2>
+        5,6 - 7,8
+        л/100 км</h2>
+    </div>
+</div>
+<div class="vertical_line"></div>
+<div>
+
+    <h2 style="text-align: center;font-weight: normal">
+    2020 рік - заключний для моделі Tiguan поточного<br>
+    покоління, а це значить що у Вас є можливість<br>
+    зробити правильний вибір на максимально вигідних<br>
+    для себе умовах у вигляді лімітованих спеціальних<br>
+    комплектацій із оновленим переліком серійного обладнання.
+    </h2>
+    <p>
+        <div style="text-align: center;font-size: 15px;margin-bottom: 20px">
+    Tiguan сьогодні - це один з найпопулярніших SUV в усьому світі, в той самий час беззаперечний №1 серед<br>
+    всіх в Європі. Станом на 2020 рік було продано більше 6 000 000 автомобілів, тому незалежно від обраного<br>
+    варіанта Ви відчуєте комфорт, практичність та максимально прогнозовану керованість у поєднанні зі<br>
+    впевненістю щодо своєї безпеки. Tiguan - це завжди правильний вибір.<br>
+    </div>
+
+</div>
+
+<div class="topnav" id="navbar">
+    <a class="active">Comfort Edition</a>
+    <a>Limited Edition TDI</a>
+    <a>Limited Edition TSI</a>
+</div>
+<div class="container">
+<div class="car_editions" style="visibility: visible" id="comfort">
+    <h1 style="color: black">Comfort Edition</h1><br>
+    <h3>Все життєвонеобхідне.</h3><br>
+    Від<h2> 905 362 грн.</h2><br>
+    <ul style="list-style: none">
+        <li>+ Повний привод 4MOTION</li>
+        <li>+ 2.0 TDI (150 к.с.) / 7-ступ. DSG</li>
+        <li>+ Легкосплавні диски "Montana" R17</li>
+        <li>+ Кермо мультифункціональне шкіряне</li>
+        <li>+ Кондиціонер автоматичний трьохзонний "Climatronic"</li>
+        <li>+ Мультимедійна система "Composition Media"</li>
+        <li>+ Cистема фронтального контролю "Front Assist"</li>
+        <li>+ Круїз-контроль</li>
+        <li>+ App-Connect: Apple CarPlay/Android Auto</li>
+        <li>+ Парктронік передній та задній</li>
+        <li>+ Асистент утримання смуги руху Lane Assist</li>
+    </ul>
+</div>
+
+<div class="car_editions" id="limited_tdi">
+    <h1 style="color: black">Limited Edition TDI</h1><br>
+    <h3>Золота середина.</h3><br>
+    Від<h2> 1 029 514 грн.</h2><br>
+    <ul style="list-style: none">
+        <li>+ Повний привод 4MOTION</li>
+        <li>+ 2.0 TDI (150 к.с.) / 7-ступ. DSG</li>
+        <li>+ Легкосплавні диски "Kingston R18" R17</li>
+        <li>+ Топ-комфортні передні сидіння із оббивкою мікрофібра “ArtVelour”</li>
+        <li>+ LED-фари ближнього та дальнього світла із системою Active Lighting System</li>
+        <li>+ Камера заднього виду "Rear View", паркувальний ассистент “Park Assist” вкл.парктронік передній та задній</li>
+        <li>+ Кермо мультифункціональне шкіряне з обігрівом</li>
+        <li>+ Електропривод відкривання-закривання дверей багажного відділення</li>
+        <li>+ Цифрова панель приладів Active Info Display</li>
+        <li>+ Адаптивний круїз-контроль</li>
+        <li>+ App-Connect: Apple CarPlay/Android Auto</li>
+    </ul>
+</div>
+<div class="car_editions" id="limited_tsi">
+    <h1 style="color: black">Limited Edition TSI</h1><br>
+    <h3>Жодних компромісів із бажаннями.</h3><br>
+    Від<h2> 1 088 275 грн.</h2><br>
+    <ul style="list-style: none">
+        <li>+ Повний привод 4MOTION</li>
+        <li>+ 2.0 TDI (220 к.с.) / 7-ступ. DSG</li>
+        <li>+ 0-100 за 6.5 сек</li>
+        <li>+ Легкосплавні диски "Kingston" R18</li>
+        <li>+ Пакет "Easy Open" без функції Safe електропривод закривання дверей багажника, відкривання дверей багажника з сенсорним керуванням, система безключового запуску двигуна та відкриття дверей "Keyless Access"</li>
+        <li>+ Оббивка сидінь - мікрофібра "ArtVelours"</li>
+        <li>+ Система Active Lighting</li>
+        <li>+ Кермо мультифункціональне шкіряне з обігрівом, з підкермовими клавішами керування DSG</li>
+        <li>+ App-Connect: Apple CarPlay/Android Auto</li>
+        <li>+ Камера заднього виду "Rear View", паркувальний асистент "Park Assist" вкл. парктронік передній</li>
+        <li>+ Цифрова панель приладів Active Info Display</li>
+        <li>+ Адаптивний круїз-контроль</li>
+    </ul>
+</div>
+</div>
+<header><h1 style="color: black;text-align: center;margin-top: 10px;">Обладнання та дизайн</h1></header>
+<!--TODO доделать html разметку с фото и поправить анимацию и добавить search иконку к инпуту-->
+<script src="functions.js"></script>
+<div id="wrapper">
+    <div class="block">
+    <h1 style="color: black;">Дизайн</h1>
+    <h3 >Незвіданне чекає на Вас.</h3>
+    Завдяки неперевершеній керованості
+    та вдосконаленим системам допомоги
+    водієві Tiguan не тільки відкритий до
+    нових вражень. Він і є враження.
+    Тим часом дизайн демонструє свою нову
+    мужню та елегантну постать. Нехай Ваш
+    погляд керується вражаючими деталями
+    його зовнішності. Але цього недостатньо.
+    Відкрийте для себе чимало інших
+    неординарних елементів дизайну його високоякісного інтер'єра.<br>
+
+    <div class="parallax">
+       <img src="https://cdn-ua.volkswagen.at/media/Abstract_Image_B560_Component.Content_Model_HighlightFeatureSection_Item_Content_Gallery_Item_Component/8020-96483-63203-content-gallery-63204-b560/dh-857-37b397/aefecd64/1602136103/vw-tiguan-silber-exterieur-heck.jpg" alt="design" >
+    </div>
+    </div>
+    <div class="block">
+        <h1 style="color: black;">R-Line</h1><br>
+                Як кросовер Tiguan вже в
+                генах має спортивний
+                характер. Щоб це
+                підкреслити, пакет R-Line
+                пропонує стільки ж ключових
+                особливостей ззовні, скільки і
+                всередині. Для тих, хто
+                навпаки бажає захоплюватись
+                динамічним зовнішнім
+                виглядом автомобіля, просто
+                зобов'язаний замовити пакет
+                R-Line Екстер'єр.
+
+        <div class="parallax">
+            <img src="https://cdn-ua.volkswagen.at/media/Abstract_Image_B960_Component.Content_Model_HighlightFeatureSection_I
+tem_Content_Gallery_Item_Component/8020-96488-63220-content-gallery-63221-b960/dh-12
+80-58134f/0b2798be/1602136105/TNR1648_Web.jpeg" alt="design">
+        </div>
+    </div>
+    <div class="block">
+        <h1 style="color: black;">Синхронізація.</h1><br>
+        Незалежно від того,
+        чи потрібно Вам зателефонувати під час руху,
+        чи доїхати до пункту призначення за допомогою навігації
+        або просто хочете слухати власну музику - Ваш Tiguan пропонує безліч
+        варіантів використання сучасних технологій зручним та нескладним способом.
+        <div class="parallax">
+            <img src="https://cdn-ua.volkswagen.at/media/Content_Model_Equipment_Lightbox_Child_MediaBig_Image_Component/8020-96492_lightbox-63230-mediaBig-child/dh-1280-00fe24/425c8c50/1602136106/vw-tiguan-car-net-app-connect.jpg" alt="design">
+        </div>
+    </div>
+    <div class="block">
+        <h1 style="color: black;">Комфорт.</h1><br>
+        Нова місцевість рідко буваю звичною та зручною.
+        Тим більше важливо, що на Вас там чекає.
+        Завдяки своєму продуманому та ергономічному інтер'єру та численним системам комфорту
+        Tiguan робить вашу подорож максимально комфортною.
+        <div class="parallax">
+            <img src="https://cdn-ua.volkswagen.at/media/Content_Model_Equipment_Lightbox_Child_MediaBig_Image_Component/8020-96519_lightbox-63250-mediaBig-child/dh-1280-00fe24/20e64d5a/1602136108/vw-tiguan-easy-open.jpg" alt="design">
+        </div>
+    </div>
+</div>
+<div class="vertical_line" style="margin-top: 50px"></div>
+<div id="grid"></div>
+<div class="grid">
+    <div class="grid_element">
+        <h3 style="color: black">Volkswagen</h3><br>
+        <p>
+        <a href="#" style="color: black">Новини</a>
+        </p>
+        <p>
+        <a href="#" style="color: black">Volkswagen комерційні автомобілі</a>
+        </p>
+        <p>
+        <a href="#" style="color: black">Склад авто в Україні</a>
+        </p>
+    </div>
+    <div class="grid_element">
+        <h3 style="color: black">Сервіс</h3><br>
+        <p>
+        <a href="#" style="color: black">Пошук дилера</a>
+        </p>
+        <p>
+        <a href="#" style="color: black">Відгуки та пропозиції</a>
+        </p>
+        <a href="#" style="color: black">Підписка на новини</a>
+    </div>
+    <div class="grid_element">
+        <h3 style="color: black">Підтримка</h3><br>
+        <p>
+            <a href="#" style="color: black">Volkswagen в Україні</a></p>
+        <p>
+            <a href="#" style="color: black">Конфіденційність персональних даних</a></p>
+    </div>
+    <div class="grid_element">
+        <h3 style="color: black">Соціальні мережі
+        </h3><br>
+        <p>
+        <a href="#" style="color: black">Facebook</a>
+        </p>
+        <p>
+        <a href="#" style="color: black">YouTube</a>
+        </p>
+        <p>
+        <a href="#" style="color: black">Instagram</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
